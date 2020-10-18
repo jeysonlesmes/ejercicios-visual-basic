@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LicethPedraza.exe" version="1.0.0.1" publicKeyToken="91cac873f8420548" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LicethPedraza" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LicethPedraza.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LicethPedraza.exe" size="48096">
+      <assemblyIdentity name="LicethPedraza" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Kdh/jEKmQRutc2eGTdxkxFfCITUUKATAIQ0jFTlcBV0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LicethPedraza.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-TSM932OA\andre" issuerKeyHash="df7c9f4254234c40ced00490760efd6ebd3df725" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oP9IuTbYGN3/uKZJVP1lKO+gJD7IjO3fn6oo7yesMWA=</DigestValue></Reference></SignedInfo><SignatureValue>gy5Vf64Wr8SRVfILqITMZYl8GbZFA42BlrW666GTr5vYknFA+DY+b1Bi/cuot0GrBMZY5xEaFuuODjm+8WHuCdGEQ9bRaDKkW8wWu00bIOh3M8i9jnVkDmW/1AdVoIe1DB2epMLM34dg1yK7xCWyXEkHO4Lbnr/Ba2dLi0JRS44=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1qOW9Fb1kIbGEqxgbpyaQKZ8888IQ0snnuZDEfLXG2eUL6s2VChmw5Sv92DWz3OEDG7wOqa20Gtem+vRZbBKEr8vflSvn3a+FF8Bd0RRJ5oYkrtGLNcF3THuveSBTksC9g7Ja3dVuzW+bZeYOOmy6Y9iwdKNNvySzoLCF1HWvDE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6031ac27ef28aa9fdfed8cc83e24a0ef2865fd5449a6b8ffdd18d836b948ffa0" Description="" Url=""><as:assemblyIdentity name="LicethPedraza.exe" version="1.0.0.1" publicKeyToken="91cac873f8420548" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-TSM932OA\andre</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0e8RTg8FF+LwzYB49DTHgfn2q5VZNYZGkP7fHx1BFgM=</DigestValue></Reference></SignedInfo><SignatureValue>fA0fJhO/ev/EEZNAUFZzWOfwNd+kbMwmsBU6EeuBSyHrd9gHTxS2t4W5VHFrGgSrWDjv7EINpDjS2PgtxPx6dSnfLmlQ6t2ufIZtDBPCAmce1/EEnmCiSELxGOmfHLZhF7df9ug0eb53D39RsMvZ4Bn6Xlmy/3fgbeWDPGC7a3g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1qOW9Fb1kIbGEqxgbpyaQKZ8888IQ0snnuZDEfLXG2eUL6s2VChmw5Sv92DWz3OEDG7wOqa20Gtem+vRZbBKEr8vflSvn3a+FF8Bd0RRJ5oYkrtGLNcF3THuveSBTksC9g7Ja3dVuzW+bZeYOOmy6Y9iwdKNNvySzoLCF1HWvDE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQNkAc27qWfJ5LFibqqdJaFDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBUAFMATQA5ADMAMgBPAEEAXABhAG4AZAByAGUwHhcNMjAxMDE4MDIyNTE3WhcNMjExMDE4MDgyNTE3WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBUAFMATQA5ADMAMgBPAEEAXABhAG4AZAByAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANajlvRW9ZCGxhKsYG6cmkCmfPPPCENLJ57mQxHy1xtnlC+rNlQoZsOUr/dg1s9zhAxu8DqmttBrXpvr0WWwShK/L35Ur592vhRfAXdEUSeaGJK7RizXBd0x7r3kgU5LAvYOyWt3Vbs1vm2XmDjpsumPYsHSjTb8ks6CwhdR1rwxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGpQjYqljLztBH4lHjODzaC73+o6Q0vumQwqRDATDvrW5G2ZfRaf+8li7VkBamevBWzHicnHmHoNIL2A1ILnZx7H3FagcXG+QGm0EhjcLQGGauCVq3ZTRP+SYVvIIHOk9yYIsc78qXeev3MXnnSJtv78r5gAufKp3k9M8K/sR/XY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
